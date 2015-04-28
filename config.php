@@ -1,22 +1,22 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://www.grosh.co/lotteryroot/');
+define('HTTP_SERVER', 'http://lottery:8888/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://www.grosh.co/lotteryroot/');
+define('HTTPS_SERVER', 'http://lottery:8888/');
 
 // DIR
-define('DIR_APPLICATION', '/var/www/html/lotteryroot/catalog/');
-define('DIR_SYSTEM', '/var/www/html/lotteryroot/system/');
-define('DIR_LANGUAGE', '/var/www/html/lotteryroot/catalog/language/');
-define('DIR_TEMPLATE', '/var/www/html/lotteryroot/catalog/view/theme/');
-define('DIR_CONFIG', '/var/www/html/lotteryroot/system/config/');
-define('DIR_IMAGE', '/var/www/html/lotteryroot/image/');
-define('DIR_CACHE', '/var/www/html/lotteryroot/system/cache/');
-define('DIR_DOWNLOAD', '/var/www/html/lotteryroot/system/download/');
-define('DIR_UPLOAD', '/var/www/html/lotteryroot/system/upload/');
-define('DIR_MODIFICATION', '/var/www/html/lotteryroot/system/modification/');
-define('DIR_LOGS', '/var/www/html/lotteryroot/system/logs/');
+define('DIR_APPLICATION', 'catalog/');
+define('DIR_SYSTEM', 'system/');
+define('DIR_LANGUAGE', 'catalog/language/');
+define('DIR_TEMPLATE', 'catalog/view/theme/');
+define('DIR_CONFIG', 'system/config/');
+define('DIR_IMAGE', 'image/');
+define('DIR_CACHE', 'system/cache/');
+define('DIR_DOWNLOAD', 'system/download/');
+define('DIR_UPLOAD', 'system/upload/');
+define('DIR_MODIFICATION', 'system/modification/');
+define('DIR_LOGS', 'system/logs/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
