@@ -45,7 +45,7 @@ define('DIR_LOGS', '/var/www/system/logs/');
 // DB
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
+define('DB_USERNAME', 'vagrant');
+define('DB_PASSWORD', 'vagrant');
 define('DB_DATABASE', 'lottery');
 define('DB_PREFIX', 'oc_');

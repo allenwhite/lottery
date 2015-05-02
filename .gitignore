@@ -1,2 +1,4 @@
 Vagrantfile
 .vagrant
+bootstrap.sh
+custom_config_files/*
