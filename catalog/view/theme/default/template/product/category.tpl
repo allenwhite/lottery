@@ -53,7 +53,6 @@
       <?php } ?>
       <?php } ?>
       <?php if ($products) { ?>
-      <p><a href="<?php echo $compare; ?>" id="compare-total"><?php echo $text_compare; ?></a></p>
       <div class="row">
         <div class="col-md-4">
           <div class="btn-group hidden-xs">
