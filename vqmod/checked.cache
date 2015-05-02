@@ -153,3 +153,10 @@ admin/language/english/catalog/product.php
 system/library/pagination.php
 admin/view/template/catalog/product_list.tpl
 admin/controller/common/logout.php
+catalog/controller/checkout/cart.php
+catalog/language/english/checkout/cart.php
+catalog/controller/product/product.php
+catalog/language/english/product/product.php
+catalog/model/catalog/manufacturer.php
+catalog/model/catalog/review.php
+catalog/view/theme/default/template/product/product.tpl
