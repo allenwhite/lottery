@@ -93,7 +93,7 @@
     </div>
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav">
-        <li class="dropdown"><a href="#">How it Works</a></li>
+        <li class="dropdown"><a href="<?php echo $how_it_works; ?>">How it Works</a></li>
         <li class="dropdown"><a href="#">Browse Tickets</a></li>
         <li class="dropdown"><a href="#">Find a Group</a></li>
         <li class="dropdown"><a href="#">Give a Gift</a></li>
