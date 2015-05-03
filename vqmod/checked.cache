@@ -345,3 +345,14 @@ catalog/model/account/custom_field.php
 catalog/view/theme/default/template/account/register.tpl
 catalog/controller/account/account.php
 catalog/model/localisation/zone.php
+catalog/view/theme/default/template/common/how_it_works.tpl
+catalog/controller/common/browse.php
+catalog/view/theme/default/template/common/browse.tpl
+catalog/controller/common/contact.php
+catalog/view/theme/default/template/common/contact.tpl
+catalog/controller/common/give.php
+catalog/view/theme/default/template/common/give.tpl
+catalog/controller/common/faq.php
+catalog/view/theme/default/template/common/faq.tpl
+catalog/controller/common/groups.php
+catalog/view/theme/default/template/common/groups.tpl

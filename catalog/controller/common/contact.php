@@ -1,7 +1,7 @@
 <?php
-class ControllerCommonHowItWorks extends Controller {
+class ControllerCommonContact extends Controller {
   public function index() {
-    $this->document->setTitle($this->config->get('How It Works'));
+    $this->document->setTitle($this->config->get('config_meta_title'));
     $this->document->setDescription($this->config->get('config_meta_description'));
     $this->document->setKeywords($this->config->get('config_meta_keyword'));
 
@@ -16,10 +16,10 @@ class ControllerCommonHowItWorks extends Controller {
     $data['footer'] = $this->load->controller('common/footer');
     $data['header'] = $this->load->controller('common/header');
 
-    if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/how_it_works.tpl')) {
-      $this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/common/how_it_works.tpl', $data));
+    if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/contact.tpl')) {
+      $this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/common/contact.tpl', $data));
     } else {
-      $this->response->setOutput($this->load->view('default/template/common/how_it_works.tpl', $data));
+      $this->response->setOutput($this->load->view('default/template/common/contact.tpl', $data));
     }
   }
 }
