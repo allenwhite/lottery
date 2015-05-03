@@ -1,0 +1,8 @@
+Vagrantfile
+.vagrant
+bootstrap.sh
+custom_config_files/*
+install
+config.php
+/admin/config.php
+system/cache/*
