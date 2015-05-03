@@ -93,21 +93,12 @@
     </div>
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav">
-<<<<<<< HEAD
-        <li class="dropdown"><a href="#">How it Works</a></li>
-        <li class="dropdown"><a href="#">Browse Tickets</a></li>
-        <li class="dropdown"><a href="#">Find a Group</a></li>
-        <li class="dropdown"><a href="#">Give a Gift</a></li>
-        <li class="dropdown"><a href="#">FAQ</a></li>
-        <li class="dropdown"><a href="#">Contact Us</a></li>
-=======
         <li class="dropdown"><a href="index.php?route=common/how_it_works">How it Works</a></li>
         <li class="dropdown"><a href="index.php?route=common/browse">Browse Tickets</a></li>
         <li class="dropdown"><a href="index.php?route=common/groups">Find a Group</a></li>
         <li class="dropdown"><a href="index.php?route=common/give">Give a Gift</a></li>
         <li class="dropdown"><a href="index.php?route=common/faq">FAQ</a></li>
         <li class="dropdown"><a href="index.php?route=common/contact">Contact Us</a></li>
->>>>>>> e923f9f3051bf4dcf9b5b325e02f035e055ab626
       </ul>
     </div>
   </nav>
